@@ -1,25 +1,14 @@
-# 🐍 Adam's Awesome Snake Game
-
-## Install
+🐍 Adam's Snake Game
 
 ```bash
+// Install
 npm install
-```
 
-## Play
-
-```bash
+// Play
 npm run play
-```
-
-or
-
-```bash
+// -- or --
 node main.js
-```
 
-## Test
-
-```bash
+// Test
 npm test
 ```
