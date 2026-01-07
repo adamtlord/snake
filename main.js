@@ -185,6 +185,12 @@ function test() {
 }
 
 if (require.main === module) {
-  // test();
-  play();
+  // process.argv = [path_to_node, path_to_script, ...args]
+  const command = process.argv[2];
+
+  if (command === "test") {
+    test();
+  } else {
+    play();
+  }
 }

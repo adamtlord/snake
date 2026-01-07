@@ -4,6 +4,10 @@
   "description": "A super simple snake-like game based on a CodeSignal prompt",
   "license": "ISC",
   "author": "Adam Lord",
+  "scripts": {
+    "play": "node main.js",
+    "test": "node main.js test"
+  },
   "dependencies": {
     "blessed": "^0.1.81"
   }
