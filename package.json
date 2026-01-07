@@ -1,0 +1,10 @@
+{
+  "name": "Adam's Awesome Snake Game",
+  "version": "1.0.0",
+  "description": "A super simple snake-like game based on a CodeSignal prompt",
+  "license": "ISC",
+  "author": "Adam Lord",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
